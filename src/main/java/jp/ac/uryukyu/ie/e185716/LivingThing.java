@@ -6,6 +6,13 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
+    /**
+     *
+     * hpと攻撃力を表示するためのメソッド
+     * @param name 名前
+     * @param hitpoint　体力
+     * @param attack　攻撃力
+     */
     public LivingThing(String name, int hitpoint, int attack){
         this.name = name;
         this.hitPoint = hitpoint;
