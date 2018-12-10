@@ -8,7 +8,7 @@ public class LivingThing {
 
     /**
      *
-     * hpと攻撃力を表示するためのメソッド
+     * hpと攻撃力を表示するためのコンストラクタ
      * @param name 名前
      * @param hitpoint　体力
      * @param attack　攻撃力
